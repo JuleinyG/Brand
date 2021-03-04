@@ -1,0 +1,165 @@
+/* @import url ('https://fonts.googleapis.com/css2? family = Open + Sans & display = swap'); </style> */
+
+
+
+:root {
+    --green-color:#7acc2d;
+    --white-color: white;
+    --black-color: #313337;
+    /* Tipografia */
+    --normal:12px;
+    /* Espaciado */
+    --space:10px;
+    /* Box shadow */
+    --box:0px 0 2px 1px #e6e5e9;
+}
+
+html body {
+    margin: 0px;
+    padding: 0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+     
+}
+
+.base_layout {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 .5em;
+    position: relative;
+}
+    
+nav {
+    display: flex;
+    background-color: var(--green-color) ;
+    padding: var(--space);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+nav ul{
+    display: flex;
+}
+    
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+    
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+    
+nav li a:hover{
+    color: var(--white-color) ;
+      
+}
+    
+.main_section {
+    padding: 15%;
+    text-align: center;
+}
+    
+.products{
+    background-image: url("./imagenes/curve.png");
+    background-repeat: no-repeat;
+    height: 95px;
+    background-size: cover;
+    background-position: center top;
+    padding: 25%;
+    display: flex;
+}
+    
+.product {
+    padding: var(--space);
+    margin-top: -340px;
+}
+    
+.product .content {
+    background-color: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box) ;
+}
+    
+.img_content {
+    text-align: center;
+}
+    
+.main_button{
+    background-color: var(--green-color) ;
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color) ;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+    
+.main_button:hover {
+    background-color: #5e9e22;
+    margin: 0px;
+    padding: 0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box_center {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+  
+    
+}
+
+.imgb1,
+.imgb2,
+.imgb3 {
+    padding: 20px;
+    text-align: justify;
+}
+ 
+h2 {
+    text-align: center;
+}
+.mentions {
+    display: flex;
+    padding: 5%;
+    text-align: center;
+    justify-content: space-between;
+ 
+  
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.mentions_box{
+    border-radius: 5px;
+    box-shadow:   1px 1px 2px 0px rgba(50, 50, 50, 0.75);
+   
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+    clear: both;
+    justify-content: space-between;
+}
+
+
