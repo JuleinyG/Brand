@@ -19,7 +19,6 @@ html body {
     padding: 0px;
     font-size: var(--normal);
     font-family: 'Open Sans', sans-serif;
-     
 }
 
 .base_layout {
@@ -34,6 +33,7 @@ nav {
     display: flex;
     background-color: var(--green-color) ;
     padding: var(--space);
+    max-width: 100%;
     color: white;
     justify-content: space-between;
     align-items: center;
@@ -154,12 +154,14 @@ h2 {
 .footer {
     display: flex;
     background-color: black;
-    height: 50px;
+    height: 20px;
+    max-width: 100%;
     color: white;
     font-size: 14px;
-    padding: 15px;
+    padding: 10px;
     clear: both;
     justify-content: space-between;
+    overflow-x:hidden;
 }
 
 
