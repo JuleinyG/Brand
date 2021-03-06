@@ -14,6 +14,12 @@
     --box:0px 0 2px 1px #e6e5e9;
 }
 
+label{
+    display: block;
+    margin-top: px;
+    font-size: 12px;
+}
+
 html body {
     margin: 0px;
     padding: 0px;
@@ -151,17 +157,39 @@ h2 {
    
 }
 
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow:   1px 1px 2px 0px rgba(50, 50, 50, 0.75);
+   
+}
+.modulo_pago_imganes{
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+  
+}
+
+.modulo_pago input  {
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
 .footer {
     display: flex;
+    justify-content: space-between;
     background-color: black;
-    height: 20px;
     max-width: 100%;
     color: white;
     font-size: 14px;
     padding: 10px;
     clear: both;
-    justify-content: space-between;
-    overflow-x:hidden;
+  
 }
 
 

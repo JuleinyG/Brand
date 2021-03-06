@@ -1,0 +1,86 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 7.9% 0 40%;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.row_2{
+    display: flex;
+}
+.colm-1 {
+    width: 8.333333333%;
+}
+ 
+.colm-2 {
+    width: 16.666666666%;
+}
+
+.colm-3 {
+    width: 24.999999999%;
+}
+
+.colm-4 {
+    width: 33.333333332%;
+   
+}
+
+.colm-5 {
+    width: 41.666666665%;
+}
+
+.colm-6 {
+    width: 49.999999998%;
+}
+
+.colm-7 {
+    width: 58.333333331%;
+}
+
+.colm-8 {
+    width: 66.666666664%;
+}
+
+.colm-9 { padding:;
+    width: 74.999999997%;
+}
+
+.colm-10 {
+    width: 83.33333333%;
+}
+
+.colm-11 {
+    width: 91.666666663%;
+}
+
+.colm-12 {
+    width: 100%;
+}
+ 
+.colm-1,.colm-2,.colm-3,.colm-4,.com-5,.colm6,.colm-7,.colm-8,.colm-9,.colm-10,.colm-11,.colm-12{
+    padding: 10px;
+}
+
+
+
+
+@media (max-width: 600px) {
+
+        .row_2{
+            display: inherit;
+        }
+
+    .colm-1,.colm-2,.colm-3,.colm-4,.colm-5,.colm-6,.colm-7,.colm-8,.colm-9,.colm-10,.colm-11,.colm-12{
+      width: 90%;
+    }
+
+    .footer{
+      height: 20px;
+       
+    }
+    
+}
+
+
