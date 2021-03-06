@@ -25,6 +25,7 @@ html body {
     padding: 0px;
     font-size: var(--normal);
     font-family: 'Open Sans', sans-serif;
+    overflow-x:hidden;
 }
 
 .base_layout {
@@ -107,10 +108,10 @@ nav li a:hover{
     
 .main_button:hover {
     background-color: #5e9e22;
-    margin: 0px;
+    /* margin: 0px;
     padding: 0px;
     font-size: var(--normal);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
 }
 
 .box_center {
@@ -148,7 +149,7 @@ h2 {
 .p3,
 .p4 {
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 5%;
 }
 
 .mentions_box{
@@ -196,6 +197,9 @@ h2 {
     padding: 10px;
     clear: both;
   
+}
+.contact a {
+    color: #7acc2d;
 }
 
 
